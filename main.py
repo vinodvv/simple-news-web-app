@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-NEWS_API_KEY = 'a302356f277a41889d72ea20e3f97d60'
+NEWS_API_KEY = 'my_api_key'
 NEW_API_URL = 'https://newsapi.org/v2/top-headlines?country=in&language=en&apiKey=' + NEWS_API_KEY
 
 
